@@ -23,16 +23,24 @@
 /* Service section */
 #service{
     flex-direction: column;
-    margin: 10px 90px 50px;
+    margin: 10px 40px 50px;
 }
 #service .box{
     padding: 14px;
     margin: 2px 15px;
     margin-bottom: 2px;
 }
+#service .box img{
+    height: 140px;
+    width: 145px;
+}
+
 /* Client section */
 .client{
     flex-wrap: wrap;
+}
+.primaryh{
+    font-size: 25px;
 }
 .client img{
     width: 66px;
